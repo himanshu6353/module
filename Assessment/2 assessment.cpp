@@ -28,7 +28,6 @@ class display:public LectureDetails
         cout << "Course Name: " << courseName << endl;
         cout << "no. of lecturer:"<<a<<endl;
         cout << "---------------------------" << endl;
-		
 	}
 	};
 
