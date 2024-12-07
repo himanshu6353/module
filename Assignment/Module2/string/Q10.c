@@ -7,12 +7,12 @@ main() {
     char substring[100];
     int start,length;
 	printf("Enter string::");
-	scanf("%s",&str);
-	printf("Enter substring start point::");
+	scanf("%s",&str);	//take string from user
+	printf("Enter substring start point::");	//take start point from user
 	scanf("%d",&start);
-	printf("Enter length of substring::");
+	printf("Enter length of substring::");	//take length of substring
 	scanf("%d",&length);
-    strncpy(substring, str + start, length);
+    strncpy(substring, str + start, length); 	//find length using copy libery
     substring[length] = '\0';
     printf("Extracted substring: \"%s\"\n", substring);
 

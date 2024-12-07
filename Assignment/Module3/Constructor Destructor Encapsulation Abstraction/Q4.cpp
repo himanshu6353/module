@@ -2,17 +2,17 @@
 using namespace std;
 class BankAccount{
 	private:
-		int  acnumber,balance=5000,dep,with;
+		int  acnumber,balance=5000,dep,with;	//using private datatype
 	public:
 	
-		deposit()
+		deposit()	//method use for add balance
 		{
 			cout<<"Enter money you wont to deposit::";
 			cin>>dep;
 			balance=balance+dep;
 			cout<<"Your total balance is::"<<balance<<endl;
 		}
-		withdraw()
+		withdraw()		//use method for withdraw balance
 		{
 			cout<<"Enter money you wont to withdraw::";
 			cin>>with;
@@ -28,7 +28,7 @@ class BankAccount{
 			cout<<"Your total balance is::"<<balance<<endl;
 			
 		}
-		check(){
+		check(){		//check balance
 			cout<<"Your Balance is::"<<balance<<endl;
 		}
 		

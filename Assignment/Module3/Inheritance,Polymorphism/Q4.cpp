@@ -4,7 +4,7 @@ class student{
 	public:
 		int rollno;
 		string name;
-		fun()
+		fun()		//Method for take user data
 		{
 			cout<<"Enter student Name::";
 			cin>>name;
@@ -16,7 +16,7 @@ class marks
 {
 	public:
 	int sub1,sub2,sub3;
-	fun1()
+	fun1()			//take marks of student
 	{
 	cout<<"Enter your marks of science::";
 	cin>>sub1;
@@ -39,9 +39,9 @@ class Marksheet:public student,public marks{
 		cout<<"your Roll Number is ::"<<rollno<<endl;
 		cout<<"your science marks is ::"<<sub1<<endl;
 		cout<<"your math marks is ::"<<sub2<<endl;
-		cout<<"your hindi marks is ::"<<sub3<<endl;
+		cout<<"your hindi marks is ::"<<sub3<<endl;		//Total
 		total=sub1+sub2+sub3;
-		cout<<"Total of all subject is ::"<<total<<endl;
+		cout<<"Total of all subject is ::"<<total<<endl;	//percentage
 		per=total/3;
 		cout<<"your Percentage is::"<<per;
 		}

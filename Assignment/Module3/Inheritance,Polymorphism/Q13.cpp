@@ -4,15 +4,15 @@ using namespace std;
 class fun{
 	private:
 	int a,b;
-	friend fun1(fun & obj);
+	friend fun1(fun & obj);		//using friend function create object 
 };
 fun1(fun & obj)
 {
-	cout<<"Enter A::";
+	cout<<"Enter A::";	//take user input
 	cin>>obj.a;
 	cout<<"Enter B::";
 	cin>>obj.b;
-	if(obj.a>obj.b)
+	if(obj.a>obj.b)		//using condition for find max number
 	{
 		cout<<"A is greater!!";
 	}

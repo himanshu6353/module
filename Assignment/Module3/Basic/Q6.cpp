@@ -5,7 +5,7 @@ class Person{
 		string name,country;
 		int age;
 	public:
-		get()
+		get()	//get method for take user input
 		{
 			cout<<"Enter your name::";
 			cin>>name;
@@ -14,7 +14,7 @@ class Person{
 			cout<<"Enter your country::";
 			cin>>country;	
 		}
-		set()
+		set() 	//set method for show data
 		{
 			cout<<"\nYour name is::"<<name<<endl;
 			cout<<"your age is::"<<age<<endl;

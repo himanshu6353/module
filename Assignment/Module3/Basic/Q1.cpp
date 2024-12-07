@@ -3,7 +3,7 @@
 using namespace std;
 class A{
 	public:
-		fun()
+		fun()	//hello world
 		{
 			cout<<"Hello world!!!";
 		}

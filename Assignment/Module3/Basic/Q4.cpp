@@ -2,17 +2,17 @@
 using namespace std;
 class area{
 	private:
-		float radius;
+		float radius;	//private datatype
 		
 	public:
 		float circle,circumference,pi=3.14;
 		fun()
 		{
-			cout<<"Enter radius::";
+			cout<<"Enter radius::";	//user input
 			cin>>radius;
 			
-			circle = pi * radius * radius;
-    		circumference = 2 * pi * radius;
+			circle = pi * radius * radius;	//formula of area of circle
+    		circumference = 2 * pi * radius;	//formula of area of circumference
     		cout<<"area of circle is::"<<circle<<endl;
     		cout<<"area of circumference::"<<circumference<<endl;
 		}

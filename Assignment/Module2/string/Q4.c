@@ -7,10 +7,10 @@ main()
     int i, wordCount = 1;  
 
     
-    printf("Enter a string: ");
+    printf("Enter a string: ");		//take string from user
     gets(str);  
     
-    for(i = 0; str[i] != '\0'; i++) 
+    for(i = 0; str[i] != '\0'; i++) 	//loop for count string without space
     {
         if(str[i] == ' ' && str[i+1] != ' ' && str[i+1] != '\0') 
         {
@@ -19,7 +19,7 @@ main()
     }
 
     
-    printf("The total number of words is: %d\n", wordCount);
+    printf("The total number of words is: %d\n", wordCount);	//show number of words
 
     
 }

@@ -8,7 +8,7 @@ main() {
     
     int i;
 
-    for (i = 0; i < 5; i++) {
+    for (i = 0; i < 5; i++) { 		//loop for take employee details
         printf("Enter details for employee %d:\n", i + 1);
         printf("Employee Number: ");
         scanf("%d", &empno[i]);
@@ -22,7 +22,7 @@ main() {
     }
 
     printf("Employee Details:\n");
-    for (i = 0; i < 5; i++) {
+    for (i = 0; i < 5; i++) {	//loop use for show employee details
         printf("Employee Number: %d\n", empno[i]);
         printf("Employee Name: %s\n", empname[i]);
         printf("Address: %s\n", address[i]);

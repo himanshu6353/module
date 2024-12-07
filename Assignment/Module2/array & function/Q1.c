@@ -4,7 +4,7 @@
 findMax(int arr[], int size) {
     int max = arr[0],i; 
     
-    for ( i = 1; i < size; i++) {
+    for ( i = 1; i < size; i++) {//find max array
         if (arr[i] > max) {
             max = arr[i]; 
         }
@@ -13,7 +13,7 @@ findMax(int arr[], int size) {
     return max; 
 }
 
-main() {
+{
     int n; 
     
    
@@ -24,13 +24,13 @@ main() {
 
 
     printf("Enter %d elements:\n", n);
-    for ( i = 0; i < n; i++) {
+    for ( i = 0; i < n; i++) {//Enter array value
         scanf("%d", &arr[i]);
     }
 
     
     int maxNumber = findMax(arr, n);
-    printf("The maximum number in the array is: %d\n", maxNumber);
+    printf("The maximum number in the array is: %d\n", maxNumber);//print max array
 
     
 }

@@ -6,7 +6,7 @@ factorial(int n) {
         return 1;
     } else {
      
-        return n * factorial(n - 1);
+        return n * factorial(n - 1); // formula of find factorial
     }
 }
 
@@ -15,7 +15,7 @@ int main() {
 
 
     printf("Enter a non-negative integer: ");
-    scanf("%d", &number);
+    scanf("%d", &number);			//take a number
 
     
     if (number < 0) {
@@ -23,7 +23,7 @@ int main() {
     } else {
        
         int result = factorial(number);
-        printf("Factorial of %d is %d\n", number, result);
+        printf("Factorial of %d is %d\n", number, result);//printf factorial
     }
 }
 

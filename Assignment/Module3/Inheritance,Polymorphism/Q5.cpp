@@ -3,7 +3,7 @@ using namespace std;
 class Students{
 	public:
 		int rollno;
-		fun()
+		fun()		//Method for take user data
 		{
 		cout<<"Enter Your roll number::";
 		cin>>rollno;
@@ -13,7 +13,7 @@ class Students{
 class marks:public Students{
 	public:
 		int math,sci;
-		fun1()
+		fun1()		//Take student number
 		{
 		cout<<"Enter your maths marks::";
 		cin>>math;
@@ -21,10 +21,10 @@ class marks:public Students{
 		cin>>sci;
 		}
 };
-class result:public marks{
+class result:public marks{		//using Multilevel Inheritance
 	public:
 		int total;
-		fun2()
+		fun2()		
 		{
 			total=math+sci;
 			cout<<"Your roll Number is::"<<rollno<<endl;

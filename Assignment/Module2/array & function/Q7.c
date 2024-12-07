@@ -4,10 +4,10 @@ main() {
     char str[100];
     int length = 0; 
 
-    printf("Enter a string: ");
+    printf("Enter a string: "); 	//Take a string
     gets(str); 
     while (str[length] != '\0') {
-        length++; 
+        length++; 		//count length of array
     }
 
     

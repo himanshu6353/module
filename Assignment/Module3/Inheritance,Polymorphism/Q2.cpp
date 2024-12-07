@@ -3,7 +3,7 @@ using namespace std;
 class A{
 	public:
 		int length,height;
-		fun()
+		fun()			//Method for taking input from user
 		{
 			cout<<"Enter Length of area::";
 			cin>>length;
@@ -17,7 +17,7 @@ class B:public A{
 		fun()
 		{
 			A::fun();
-			area=length*height;
+			area=length*height;		//Formula of find Rectangle
 			cout<<"area of Rectangle is::"<<area;
 		}
 };

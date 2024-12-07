@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<iostream>
 using namespace std;
 class Vehicle{
 	public:
@@ -9,7 +9,7 @@ class Vehicle{
 class bike:public Vehicle{
 	public:
 		wheel(){
-			Vehicle::wheel();
+			
 			cout<<"Bike have two wheel"<<endl;
 		}
 		colour(){
@@ -26,7 +26,7 @@ class car:public Vehicle{
 			cout<<"car have blue colour"<<endl;
 		}
 };
-class auto:public Vehicle{
+class autoo:public Vehicle{
 	public:
 		wheel(){
 			cout<<"auto have three wheel"<<endl;
@@ -47,7 +47,7 @@ main()
 	car obj2;
 	obj2.wheel();
 	obj2.colour();
-	auto obj3;
+	autoo obj3;
 	obj3.wheel();
 	obj.colour();
 }

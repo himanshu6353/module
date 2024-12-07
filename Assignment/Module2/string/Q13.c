@@ -5,11 +5,11 @@ main() {
     char str[200], result[200];
     int i,j = 0;
 
-    printf("Enter a string: ");
+    printf("Enter a string: ");	//take string from user
     gets(str);
 
     for( i = 0; str[i] != '\0'; i++) {
-        if((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z')) {
+        if((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z')) {	// loop for add all alphabets in one int
             result[j++] = str[i];
         }
     }

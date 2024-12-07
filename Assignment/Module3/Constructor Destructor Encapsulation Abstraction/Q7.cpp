@@ -3,8 +3,8 @@ using namespace std;
 class Date{
 	private:
 		int day,month,year,maxday;
-	public:
-		get()
+	public:	
+		get()	//take user input
 		{
 			cout<<"Enter day::";
 			cin>>day;
@@ -22,16 +22,16 @@ class Date{
 		}
 		validate()
 		{
-			if(year>=1 && month>=1&&month<=12)
+			if(year>=1 && month>=1&&month<=12)	//Condition for 12 Month
 			{
 				maxday=31;
-				if(month==4||month==6||month==9||month==11)
+				if(month==4||month==6||month==9||month==11)	
 				{
 					maxday=30;                                                       
 				}
-				else if(month==2)
+				else if(month==2)		//condition for 2ed Month
 				{
-					if((year%4==0&&year%100!=0)||(year%400==0))
+					if((year%4==0&&year%100!=0)||(year%400==0))	//condition for lip year
 					{
 						maxday=29;
 						

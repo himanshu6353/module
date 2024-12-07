@@ -25,5 +25,5 @@ T num(T x,T y,T z)
 main()
 {
 	num<int>(9,7,1);
-	num<char>('w','b','a');
+	num<char>('b','w','a');
 }

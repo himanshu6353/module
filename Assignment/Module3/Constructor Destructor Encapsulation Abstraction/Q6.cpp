@@ -5,9 +5,9 @@ class Employee{
 		int empID,salary,perf;
 		string name;
 	public:
-		Employee()
+		Employee()	//using constracter
 		{
-			cout<<"Enter your name::";
+			cout<<"Enter your name::";	//take user input
 			cin>>name;
 			cout<<"Enter your Employee ID::";
 			cin>>empID;
@@ -19,7 +19,7 @@ class Employee{
 		sal()
 		{
 		
-			if(perf>10 && perf<0)
+			if(perf>10 && perf<0)	//using condition for performance based salary
 			{
 				cout<<"Invalid choice!!!";
 			}

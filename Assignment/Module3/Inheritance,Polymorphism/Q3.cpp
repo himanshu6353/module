@@ -4,7 +4,7 @@ class Person{
 	public:
 		int age;
 		string name;
-		fun()
+		fun()		//Method for take user data
 		{
 			cout<<"Enter name::";
 			cin>>name;
@@ -15,7 +15,7 @@ class Person{
 class student:public Person{
 	public:
 		float per,a;
-		fun1()
+		fun1()		//finding percentage
 		{
 			cout<<"Enter number out of 300::";
 			cin>>a;
@@ -25,7 +25,7 @@ class student:public Person{
 };
 class Teacher:public Person{
 	public:
-		fun2()
+		fun2()		//using Multiple Inheritance
 		{
 		int salary;
 		cout<<"Enter your salary::";

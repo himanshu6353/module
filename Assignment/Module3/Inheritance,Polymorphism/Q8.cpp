@@ -10,7 +10,7 @@ class A{
 			cout<<"Multiplication of a and b is::"<<a*b<<endl;
 			
 		}
-		fun1(float x,float y)
+		fun1(float x,float y)	//using function overloading
 		{
 			cout<<"Division of a and b is::"<<x/y<<endl;
 			

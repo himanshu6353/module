@@ -6,16 +6,16 @@ main() {
     int i,length = 0; 
 
     
-    printf("Enter a string: ");
+    printf("Enter a string: ");	//take string from user
     gets(str);
 
     
-    for( i = 0; str[i] != '\0'; i++) 
+    for( i = 0; str[i] != '\0'; i++) //loop for count length of string
     {
         length++; 
     }
 
-    printf("The length of the string is: %d\n", length);
+    printf("The length of the string is: %d\n", length);	//show length of string
 
     
 }

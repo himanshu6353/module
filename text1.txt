@@ -1,0 +1,14 @@
+Java was created by James Gosling and his team at Sun Microsystems in 1991, originally named "Oak." It was publicly released in 1995 as a platform-independent programming language. Over the years, Java has evolved with significant updates, and it remains one of the most widely used languages for web, mobile, and enterprise applications.
+
+
+
+Here are the key features of Java in short:
+
+1. **Platform Independence**: Write once, run anywhere—Java programs can run on any device with a Java Virtual Machine (JVM).
+2. **Object-Oriented**: Supports concepts like inheritance, polymorphism, encapsulation, and abstraction.
+3. **Simple and Easy to Learn**: Java syntax is clear and resembles C++, making it easier for developers to learn.
+4. **Multithreading**: Supports simultaneous execution of multiple threads, making applications more efficient.
+5. **Security**: Built-in security features like bytecode verification and the sandbox model to protect against malicious code.
+6. **Robust**: Strong memory management, exception handling, and garbage collection.
+7. **Distributed Computing**: Facilitates network-based applications, like client-server systems, using libraries like RMI (Remote Method Invocation).
+8. **Rich API**: Provides a comprehensive set of libraries for I/O, networking, data structures, and more.

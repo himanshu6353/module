@@ -13,7 +13,7 @@ class A{
 			area=l*w;
 			cout<<"area of Rectangle is ::"<<area<<endl;
 		}
-		fun(float a,float b,float h)
+		fun(float a,float b,float h)		// formula of Triangle
 		{
 			cout<<"Enter base of Triangle::";
 			cin>>b;
@@ -22,7 +22,7 @@ class A{
 			a=0.5*b*h;
 			cout<<"area of Triangle is::"<<a<<endl;
 		}
-		fun(int area,int r)
+		fun(int area,int r)			// Circle
 		{
 			cout<<"Enter area of circle::";
 			cin>>r;

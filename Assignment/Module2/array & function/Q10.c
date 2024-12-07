@@ -5,13 +5,13 @@ isPalindrome(int num) {
     int original = num;
 
    
-    for (; num > 0; num /= 10) {
+    for (; num > 0; num /= 10) {		//check is number is palindrome or not
         int digit = num % 10; 
         reversed = reversed * 10 + digit; 
 		}
 
     
-    return original == reversed;
+    return original == reversed; 	//return number to main function
 }
 
 main() {
@@ -19,7 +19,7 @@ main() {
 
     
     printf("Enter an integer: ");
-    scanf("%d", &number);
+    scanf("%d", &number);			//take a number
 
     
     if (isPalindrome(number)) {

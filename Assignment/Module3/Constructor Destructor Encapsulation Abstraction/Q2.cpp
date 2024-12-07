@@ -6,7 +6,7 @@ class A{
 		int x,y,c;
 		A()//constructor
 		{
-			cout<<"Enter value 1::";
+			cout<<"Enter value 1::";		//take user input
 			cin>>x;
 			cout<<"Enter value 2::";
 			cin>>y;
@@ -21,7 +21,7 @@ class A{
 		{
 			int a,b,d,total=0;
 		
-			switch(c)
+			switch(c)		//switch Condition
 	{
 	
 		case 1:

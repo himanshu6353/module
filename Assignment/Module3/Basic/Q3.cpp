@@ -4,7 +4,7 @@ class A{
 	public:
 		string name;
 		int ac,bal=5000,de,we;
-		regi()
+		regi()				//take user input for registration
 		{
 			cout<<"Enter Your name::";
 			cin>>name;
@@ -13,14 +13,14 @@ class A{
 			cout<<"Your balance is::"<<bal<<endl;
 		}
 		deposit(){
-			cout<<"Enter Deposit Amount::";
+			cout<<"Enter Deposit Amount::";		//Enter amount for add in balance
 			cin>>de;
 			cout<<"your Deposit Amount is"<<de<<endl;
 			bal=bal+de;
 		}
 		with()
 		{
-			cout<<"Enter  withdraw Amount::";
+			cout<<"Enter  withdraw Amount::";		//enter amount you wont to withdraw
 			cin>>we;
 			cout<<"Your Withdraw amount is::"<<we<<endl;
 			if(we>bal)

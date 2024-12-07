@@ -2,20 +2,23 @@
 using namespace std;
 class LectureDetails{
 	public:
-		string lecturerName;  // Name of the lecturer
-    	string subjectName;    // Name of the subject
-    	string courseName;     // Name of the course
-		int a;
+		string lecturerName[10];  // Name of the lecturer
+    	string subjectName[10];    // Name of the subject
+    	string courseName[10];     // Name of the course
+		int a[10],i;
 		initial()
 		{
+			
+			
 			cout<<"Enter name of lecturer::";
-			cin>>lecturerName;
+			cin>>lecturerName[i];
 			cout<<"Enter name of Subject::";
-			cin>>subjectName;
+			cin>>subjectName[i];
 			cout<<"Enter name of course::";
-			cin>>courseName;
+			cin>>courseName[i];
 			cout<<"Enter number of lecturers::";
-			cin>>a;	
+			cin>>a[i];
+
 		}	
 };
 class display:public LectureDetails

@@ -15,7 +15,7 @@ main() {
     while (1) {
         
         printf("Enter your choice :: ");
-        scanf("%d", &choice);
+        scanf("%d", &choice);//print choice
 
         
         if (choice == 5) {
@@ -25,7 +25,7 @@ main() {
 
        
         printf("Enter two numbers: ");
-        scanf("%f %f", &num1, &num2);
+        scanf("%f %f", &num1, &num2);//enter values
 
         
         switch (choice) {

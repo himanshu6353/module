@@ -17,7 +17,7 @@ class B:public A{
 		}
 };
 
-class C:public B{
+class C:public B{	//using Multilevel Inheritance
 	public:
 		C()
 		{

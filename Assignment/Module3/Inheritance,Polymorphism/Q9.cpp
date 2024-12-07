@@ -4,16 +4,16 @@ using namespace std;
 class add{
 	public:
 		string str1,str2;
-		add(string a,string b)
+		add(string a,string b)	// using 1D Operator Overloading
 		{
 			str1=a;
 			str2=b;
 		}
-		add operator+(add &obj)
+		add operator+(add &obj)	//create object
 		{
 			add sum;
 			sum.str1=str1+obj.str1;
-			return sum;
+			return sum;		//return it
 		}
 		print()
 		{

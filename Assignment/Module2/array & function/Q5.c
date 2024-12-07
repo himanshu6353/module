@@ -3,12 +3,12 @@
 main()
 {
 	int a,b,i,j,temp,k;
-	printf("Enter the number of element of 1 array::");
+	printf("Enter the number of element of 1 array::"); 
 	scanf("%d",&a);
 	int arr1[a];
 	for(i=0;i<a;i++)
 	{
-		printf("Enter number::");
+		printf("Enter number::"); //Enter array one
 		scanf("%d",&arr1[i]);
 	}
 	
@@ -17,17 +17,17 @@ main()
 	int arr2[b];
 		for(i=0;i<b;i++)
 	{
-		printf("Enter number::");
+		printf("Enter number::"); //Enter array Two
 		scanf("%d",&arr2[i]);
 	}
-	printf("Enter choice :- 1 for ascending and 2 for descending order::");
+	printf("Enter choice :- 1 for ascending and 2 for descending order::"); //give choice
 	scanf("%d",&k);
 	int ascending =(k==1);
 		for(i=0;i<=a-1;i++)
 		{
 			for(j=0;j<=a-i-1;j++)
 			{
-				if(ascending)
+				if(ascending)	//ascending and discending of array one
 				{
 					if(arr1[j]>arr1[j+1])
 					{
@@ -53,7 +53,7 @@ main()
 		{
 			for(j=0;j<=b-i-1;j++)
 			{
-				if(ascending)
+				if(ascending) 	//ascending and discending of array two
 				{
 					if(arr2[j]>arr2[j+1])
 					{
@@ -77,12 +77,12 @@ main()
 		}
 		for(i=0;i<=a;i++)
 		{
-			printf("\nsorted number is::%d",arr1[i]);
+			printf("\nsorted number is::%d",arr1[i]); //print array one
 		}
 		printf("\n");
 			for(i=0;i<=b;i++)
 		{
-			printf("\nsorted number is::%d",arr2[i]);
+			printf("\nsorted number is::%d",arr2[i]);	//printf array two
 		}
 		printf("\n");
 }

@@ -2,10 +2,10 @@
 using namespace std;
 class Car{
 	private:
-		string company,model;
+		string company,model;	//use private variable
 		int year;
 	public:
-		get()
+		get()		//get method for user input
 		{
 			cout<<"Enter company name::";
 			cin>>company;
@@ -14,7 +14,7 @@ class Car{
 			cout<<"Enter year of car ::";
 			cin>>year;	
 		}
-		set()
+		set()	//set method for show
 		{
 			cout<<"\nYour car company is::"<<company<<endl;
 			cout<<"Your car model is::"<<model<<endl;

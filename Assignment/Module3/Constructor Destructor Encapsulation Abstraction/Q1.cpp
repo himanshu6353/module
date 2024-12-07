@@ -3,18 +3,18 @@ using namespace std;
 
 
 
-		inline int multi(int a,int b)
+		inline int multi(int a,int b)	//using inline function, find multiplication value
 		{
 			return a*b;
 		}
-		inline int cube(int x)
+		inline int cube(int x)		//find cube value
 		{
 			return x*x*x;
 		}
 main()
 {
 	int a,b,x;
-	cout<<"Enter A::";
+	cout<<"Enter A::";	//take user input
 	cin>>a;
 	cout<<"Enter B::";
 	cin>>b;

@@ -3,20 +3,20 @@
 using namespace std;
 class A{
 	public:
-		fun()
+		fun()	
 		{
 			int a,b,c,d,x,y,total=0;
-			cout<<"1:-Select a for +"<<endl;
+			cout<<"1:-Select a for +"<<endl;	//menu for calculation
 			cout<<"2:-Select b for -"<<endl;
 			cout<<"3:-Select c for *"<<endl;
 			cout<<"4:-Select d for /"<<endl;
-			cout<<"Enter value 1::";
+			cout<<"Enter value 1::";		//take user input
 			cin>>x;
 			cout<<"Enter value 2::";
 			cin>>y;
 			cout<<"what you want to do ::";
 			cin>>c;
-			switch(c)
+			switch(c)		//using switch case for calculation
 	{
 	
 		case 1:

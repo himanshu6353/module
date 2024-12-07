@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Employee {
+struct Employee {	
     int empno;
     char empname[50];
     float salary;
@@ -14,7 +14,7 @@ union Data {
 };
 main() {
    
-    struct Employee emp;
+    struct Employee emp;	//Example of structure
     
     emp.empno = 101;
     strcpy(emp.empname, "Alice");
@@ -27,7 +27,7 @@ main() {
     printf("Size of Structure: %lu bytes\n\n", sizeof(emp));
     union Data data;
     
-    data.intValue = 10;
+    data.intValue = 10;		// Example of union
     printf("Union Example:\n");
     printf("Integer Value: %d\n", data.intValue);
     

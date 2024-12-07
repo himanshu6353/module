@@ -8,15 +8,15 @@ main()
     int i, areEqual = 1; 
 
    
-    printf("Enter the first string: ");
+    printf("Enter the first string: ");		//take string from user
     gets(str1);
 
     
-    printf("Enter the second string: ");
+    printf("Enter the second string: ");	//take second string from user
     gets(str2); 
 
     
-    for(i = 0; str1[i] != '\0' || str2[i] != '\0'; i++) 
+    for(i = 0; str1[i] != '\0' || str2[i] != '\0'; i++) 	//loop for compare string
     {
         if(str1[i] != str2[i]) 
         { 
@@ -26,7 +26,7 @@ main()
     }
 
     
-    if(areEqual) 
+    if(areEqual) 	//check string are equal or not
     {
         printf("The two strings are equal.\n");
     } 

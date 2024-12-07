@@ -4,7 +4,7 @@ class Cricketer{
 	public:
 		int age;
 		string name;
-		fun()
+		fun()		//Method for take Batsman name & age from user
 		{
 		cout<<"Enter name::";
 		cin>>name;
@@ -17,8 +17,8 @@ class Cricketer{
 class Batsman:public Cricketer{
 	public:
 		int Totalrun,Totalmatch,Avg,bestperf;
-		fun1()
-		{
+		fun1()			//Method for take inputs from user
+		{		
 			cout<<"Enter Total run::";
 			cin>>Totalrun;
 			cout<<"Enter Total match::";
@@ -27,7 +27,7 @@ class Batsman:public Cricketer{
 			cin>>bestperf;
 			
 		}
-		fun2()
+		fun2()		//Show all data
 		{
 			cout<<"_______________________________________________________________________________________"<<endl;
 			cout<<"Your name is::"<<name<<endl;
@@ -41,7 +41,7 @@ class Batsman:public Cricketer{
 				cout<<"Player is not start to play!!"<<endl;
 				
 			}
-			Avg=Totalrun/Totalmatch;
+			Avg=Totalrun/Totalmatch;		// finding average Of batsman
 			cout<<"Avarage is::"<<Avg;
 		}
 		

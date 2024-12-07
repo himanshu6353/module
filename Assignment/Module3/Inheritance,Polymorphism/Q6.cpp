@@ -2,10 +2,10 @@
 using namespace std;
 class A{
 
-	private:
+	private:		//use for private datatype
 		int a,b;
 		friend class B;
-	public:
+	public:			//use for public datatype
 		fun()
 		{
 		cout<<"Enter value of A::";
@@ -15,7 +15,7 @@ class A{
 		}
 };
 class B:public A{
-	protected:
+	protected:		//use for protect datatype
 		int sum;
 	public:
 		fun1(A & obj)

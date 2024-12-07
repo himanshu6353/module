@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std; 
-class Student{
+class Student{		
 	private:
-		int cl,rollnumber,marks;
+		int cl,rollnumber,marks;	//take private datatype
 		string name,add;
 	public:
-		get()
+		get()	//method for user input
 		{
-			cout<<"Enter your name::";
+			cout<<"Enter your name::";	
 			cin>>name;
 			cout<<"Enter your class::";
 			cin>>cl;
@@ -23,7 +23,7 @@ class Student{
 			cout<<"Your name is::"<<name<<endl;
 			cout<<"your class is::"<<cl<<endl;
 			cout<<"Your roll number is ::"<<rollnumber<<endl;
-			if(marks>100)
+			if(marks>100)		//use condition for grade system
 			{
 				cout<<"marks was invalid!!!";
 			}
